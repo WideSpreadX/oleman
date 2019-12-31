@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 
+
+
+START STYLE
+
+
+*/
+.top {
+  background: black;
+  color: white;
+  height: 10vh;
+  border-bottom: groove 2px lightskyblue;
+}
+.top h1 {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 20px;
+}
+.weather {
+  background: black;
+}
+.weather-container {
+  width: 95vw;
+  margin-left: 2.5vw;
+  height: 15vh;
+  background: lightskyblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 5px;
+}
+.weather-container h2 {
+  text-align: center;
+  font-size: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.weather-container th {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+.weather-container td {
+  width: 25%;
+  text-align: center;
+  color: white;
+}
+
+.news {
+  background: black;
+}
+.news-link {
+  padding: 5px;
+  margin-top: 10px;
+}
+.news-link a {
+  font-size: 46px;
+  text-align: right;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+.mail {
+  margin-top: 10px;
+  background: pink;
+}
+.mail-link {
+  padding: 5px;
+}
+.yahoo {
+  background: black;
+  color: purple;
+  height: 70px;
+}
+.yahoo a {
+  color: purple;
+}
+.gmail {
+  background: red;
+  height: 70px;
+}
+.left {
+  width: 170px;
+  float: left;
+  height: 70px;
+  padding-top: 5px;
+}
+.right {
+  width: 50%;
+  height: 70px;
+  float: left;
+  text-align: right;
+}
+.right a {
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
