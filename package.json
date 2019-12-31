@@ -1,0 +1,28 @@
+{
+  "name": "oleman",
+  "version": "1.0.0",
+  "description": "An Index for links",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "browserify": "^16.5.0",
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node stocks.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WideSpreadX/oleman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WideSpreadX/oleman/issues"
+  },
+  "homepage": "https://github.com/WideSpreadX/oleman#readme"
+}
