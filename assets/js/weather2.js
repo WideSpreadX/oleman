@@ -45,7 +45,7 @@ const flWeather = function() {
     // This is why we can create and save a reference to a td in the same statement we update its
 
     var cityTd = $("<td>").text("Orlando");
-    var titleTd = $("<td>").text(response.main.temp + " K");
+    var titleTd = $("<td>").text(response.main.temp);
 
     var yearTd = $("<td>").text(response.main.humidity + "%");
     var actorsTd = $("<td>").text(response.wind.speed);
@@ -73,7 +73,7 @@ const londonWeather = function() {
     // This is why we can create and save a reference to a td in the same statement we update its
 
     var cityTd = $("<td>").text("London");
-    var titleTd = $("<td>").text(response.main.temp + " K");
+    var titleTd = $("<td>").text(response.main.temp);
     var yearTd = $("<td>").text(response.main.humidity + "%");
     var actorsTd = $("<td>").text(response.wind.speed);
     // Append the newly created table data to the table row
@@ -98,9 +98,9 @@ const bostonWeather = function() {
     var tRow = $("<tr>");
     // Methods run on jQuery selectors return the selector they we run on
     // This is why we can create and save a reference to a td in the same statement we update its
-
     var cityTd = $("<td>").text("Boston");
-    var titleTd = $("<td>").text(response.main.temp + " K");
+
+    var titleTd = $("<td>").text(response.main.temp);
     var yearTd = $("<td>").text(response.main.humidity + "%");
     var actorsTd = $("<td>").text(response.wind.speed);
     // Append the newly created table data to the table row
