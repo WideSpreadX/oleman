@@ -107,6 +107,7 @@ const bostonWeather = function() {
     tRow.append(cityTd, titleTd, yearTd, actorsTd);
     // Append the table row to the table body
     tBody.append(tRow);
+    temp
   });
 };
 

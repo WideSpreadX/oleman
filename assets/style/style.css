@@ -224,6 +224,10 @@ START STYLE
     color: purple;
     height: 70px;
   }
+  .golf {
+    background: rgb(45, 170, 14);
+    height: 70px;
+  }
   .yahoo {
     background: black;
     color: purple;
@@ -235,6 +239,12 @@ START STYLE
   .gmail {
     background: red;
     height: 70px;
+  }
+  .gmail img {
+    box-shadow: 0 0 3px white, inset 0 0 4px red;
+    padding: 3px;
+    background: #ccc;
+    border-radius: 6px;
   }
   .left {
     width: 170px;
@@ -249,7 +259,7 @@ START STYLE
     text-align: right;
   }
   .right a {
-    font-size: 36px;
+    font-size: 26px;
     line-height: 70px;
     text-align: center;
     width: 100%;
@@ -282,7 +292,6 @@ START STYLE
     background: #777;
   }
   .mid-body {
-    font-size: 22px;
   }
   .mid-body td:first-of-type {
     width: 30vw;
@@ -298,7 +307,7 @@ START STYLE
   .mid-body td:last-of-type {
     padding: 5px;
     width: 60vw;
-    font-size: 18px;
+    font-size: 16px;
     color: #ccc;
     border-bottom: solid 2px lightskyblue;
   }
