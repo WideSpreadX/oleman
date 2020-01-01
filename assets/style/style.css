@@ -254,6 +254,20 @@ START STYLE
     background: rgb(45, 170, 14);
     height: 70px;
   }
+  .youtube {
+    background: red;
+    height: 70px;
+  }
+  .youtube img {
+    box-shadow: 0 0 3px white, inset 0 0 4px red;
+    padding: 3px;
+    background: #ccc;
+    border-radius: 6px;
+  }
+  .stocks {
+    background: rgb(40, 119, 21);
+    height: 70px;
+  }
   .yahoo {
     background: black;
     color: purple;
