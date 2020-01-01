@@ -254,6 +254,17 @@ START STYLE
     background: rgb(45, 170, 14);
     height: 70px;
   }
+  .botv {
+    background: rgb(38, 112, 112);
+    height: 70px;
+  }
+  .botv img {
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    background: white;
+  }
   .youtube {
     background: red;
     height: 70px;
@@ -267,6 +278,18 @@ START STYLE
   .stocks {
     background: rgb(40, 119, 21);
     height: 70px;
+  }
+  .uconn {
+    background: rgb(0, 61, 97);
+    height: 70px;
+  }
+  .nasa {
+    background: rgb(10, 154, 236);
+    height: 70px;
+  }
+  .nasa img {
+    height: 40px;
+    margin-top: 10px;
   }
   .yahoo {
     background: black;
