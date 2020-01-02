@@ -303,7 +303,6 @@ Login Page
   .classic-cars img {
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.486);
-    height: 40px;
   }
   .italian-recipes {
     background: rgb(204, 52, 14);
@@ -369,13 +368,13 @@ Login Page
     border-radius: 6px;
   }
   .left {
-    width: 170px;
+    width: 40%;
     float: left;
     height: 70px;
     padding-top: 5px;
   }
   .right {
-    width: 50%;
+    width: 55%;
     height: 70px;
     float: left;
     text-align: right;
