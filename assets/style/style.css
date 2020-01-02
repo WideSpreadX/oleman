@@ -136,6 +136,48 @@ START STYLE
 
 */
 
+  /* 
+
+Login Page
+
+
+*/
+
+  .login-form {
+    width: 90vw;
+    height: 40vh;
+    margin-left: 5vw;
+    background: black;
+    padding-top: 5vh;
+  }
+  .login-form form {
+    width: 90%;
+    height: 30vh;
+    padding-top: 5vh;
+    margin-left: 5vw;
+  }
+  .login-form input {
+    width: 90%;
+    height: 40px;
+    margin-left: 4%;
+    margin-top: 10px;
+    font-size: 32px;
+    border-radius: 20px;
+    padding-left: 6px;
+  }
+  .login-form button {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: lightskyblue;
+  }
+  /* 
+  
+  Home Page (Dashboard)
+  
+  */
   .top {
     background: black;
     color: white;
@@ -246,13 +288,29 @@ START STYLE
     box-shadow: 0 0 6px black, inset 0 0 6px white;
   }
   .link {
-    background: orange;
+    background: rgb(121, 88, 28);
     color: purple;
     height: 70px;
   }
   .golf {
     background: rgb(45, 170, 14);
     height: 70px;
+  }
+  .classic-cars {
+    background: rgb(230, 184, 32);
+    height: 70px;
+  }
+  .classic-cars img {
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.486);
+  }
+  .italian-recipes {
+    background: rgb(204, 52, 14);
+    height: 70px;
+  }
+  .italian-recipes img {
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.486);
   }
   .botv {
     background: rgb(38, 112, 112);
@@ -284,7 +342,7 @@ START STYLE
     height: 70px;
   }
   .nasa {
-    background: rgb(10, 154, 236);
+    background: rgb(44, 54, 59);
     height: 70px;
   }
   .nasa img {
@@ -292,7 +350,7 @@ START STYLE
     margin-top: 10px;
   }
   .yahoo {
-    background: black;
+    background: rgb(165, 110, 202);
     color: purple;
     height: 70px;
   }

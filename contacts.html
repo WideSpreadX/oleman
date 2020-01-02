@@ -77,7 +77,49 @@
           </tr>
         </table>
       </div>
-      <div class="mid-footer"></div>
+      <div class="mid-footer">
+        <div class="card">
+          <div class="card-header">
+            <h3><strong>Character Statistics</strong></h3>
+          </div>
+          <div class="card-body">
+            <h2 id="name"></h2>
+            <div id="stats">
+              <h3><strong>Catagory:</strong> <span id="role"></span></h3>
+              <h3><strong>URL:</strong> <span id="address"></span></h3>
+              <h3><strong>Restricted:</strong> <span id="restricted"></span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $("#search-btn").on("click", function() {
+      var searchedCharacter = $("#character-search").val().trim();
+
+      // Using a RegEx Pattern to remove spaces from searchedCharacter
+      // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
+      searchedCharacter = searchedCharacter.replace(/\s+/g, "").toLowerCase();
+
+      $.get("/api/links/" + searchedLink, function(data) {
+        console.log(data);
+        if (data) {
+          $("#stats").show();
+          $("#name").text(data.name);
+          $("#role").text(data.role);
+          $("#address").text(data.address);
+          $("#restricted").text(data.restricted);
+        }
+        else {
+          $("#name").text("Junior!!!!!! Where is my Link??");
+          $("#stats").hide();
+        }
+      });
+    });
+  </script>
+      </div>
     </div>
     <div class="bot">
       <table>
